@@ -36,7 +36,6 @@ export default function ContactoPage() {
               <h3 style={{ margin: "0 0 0.8rem" }}>Redes</h3>
               <div className="cta-row">
                 <SocialLink href={site.socials.github} label="GitHub">GH</SocialLink>
-                <SocialLink href={site.socials.linkedin} label="LinkedIn">in</SocialLink>
                 <SocialLink href={site.socials.x} label="X">X</SocialLink>
               </div>
             </GlassCard>

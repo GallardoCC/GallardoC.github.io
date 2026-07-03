@@ -1,0 +1,36 @@
+{
+  "name": "@gallardo/design-system",
+  "version": "0.1.0",
+  "description": "GDS — Gallardo Design System. Dark monochromatic, futuristic-minimal, premium 2026-2028 aesthetic for the Gallardo personal portfolio.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./src/styles/gallardo.css",
+    "./tokens.css": "./src/styles/tokens.css",
+    "./fonts.css": "./src/styles/fonts.css"
+  },
+  "files": [
+    "dist",
+    "src/styles",
+    "fonts"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "gallardo-portfolio",
   "version": "0.1.0",
   "private": true,
-  "description": "gallardo.dev — portafolio personal de Juan Carlos Gallardo. Next.js 15 + R3F + GSAP sobre el Gallardo Design System.",
+  "description": "gallardo.dev â€” portafolio personal de Juan Carlos Gallardo. Next.js 15 + R3F + GSAP sobre el Gallardo Design System.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@gallardo/design-system": "file:../gallardo-design-system",
+    "@gallardo/design-system": "file:./vendor/gallardo-design-system",
     "@react-three/drei": "^10.0.0",
     "@react-three/fiber": "^9.1.0",
     "gsap": "^3.13.0",

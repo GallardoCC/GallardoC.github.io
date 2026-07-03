@@ -13,9 +13,8 @@ export const site = {
   location: "Perú · GMT-5",
   available: true,
   socials: {
-    github: "https://github.com/juancarlosgallardo", // TODO: confirmar usuario real
-    linkedin: "https://www.linkedin.com/in/juancarlosgallardo", // TODO: confirmar
-    x: "https://x.com/juancarlosgallardo", // TODO: confirmar
+    github: "https://github.com/GallardoCC",
+    x: "https://x.com/JuanGal76224445",
   },
   typingRoles: [
     "Quant Trader",

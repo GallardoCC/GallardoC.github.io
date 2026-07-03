@@ -1,0 +1,94 @@
+/* ============================================================
+   GDS — Gallardo Design System · Design Tokens
+   Achromatic-first: black / white / gray, matte & metallic.
+   Dark accent colors (blue, violet, rose) are SECONDARY only.
+   Futuristic minimal · premium 2026-2028
+   ============================================================ */
+
+:root {
+  /* ---- Color · base (neutral near-black, matte) ---- */
+  --gds-bg-0: #060607;        /* page background — matte black */
+  --gds-bg-1: #0c0c0e;        /* elevated background / sections */
+  --gds-bg-2: #131316;        /* raised panels */
+
+  /* ---- Color · achromatic scale (the protagonist) ---- */
+  --gds-silver-100: #fafafa;  /* white */
+  --gds-silver-200: #e4e4e7;  /* platinum */
+  --gds-silver-300: #c8c8cd;  /* silver */
+  --gds-silver-400: #a1a1aa;  /* steel */
+  --gds-silver-500: #71717a;  /* graphite */
+  --gds-silver-600: #3f3f46;  /* gunmetal */
+  --gds-silver-700: #27272a;  /* charcoal */
+
+  /* ---- Color · secondary accents (dark, used sparingly — no pink/rose) ---- */
+  --gds-accent-blue: #1d4ed8;
+  --gds-accent-violet: #6d28d9;
+  --gds-accent-danger: #dc2626;
+
+  /* ---- Color · semantic ---- */
+  --gds-accent: var(--gds-silver-300);
+  --gds-accent-soft: rgba(255, 255, 255, 0.08);
+  --gds-text: #f4f4f5;
+  --gds-text-muted: #a1a1aa;
+  --gds-text-faint: #5b5b64;
+
+  /* ---- Surfaces · glassmorphism (matte glass) ---- */
+  --gds-glass: rgba(255, 255, 255, 0.04);
+  --gds-glass-strong: rgba(255, 255, 255, 0.07);
+  --gds-border: rgba(255, 255, 255, 0.1);
+  --gds-border-accent: rgba(255, 255, 255, 0.28);
+  --gds-blur: 16px;
+
+  /* ---- Gradients · metallic chrome ---- */
+  --gds-gradient: linear-gradient(135deg, #f4f4f5 0%, #9f9fa8 45%, #d4d4d8 100%);
+  --gds-gradient-text: linear-gradient(110deg, #ffffff 0%, #9f9fa8 45%, #e4e4e7 100%);
+  --gds-gradient-border: linear-gradient(135deg, rgba(255,255,255,0.7), rgba(255,255,255,0.08), rgba(200,200,205,0.6));
+  /* accent gradient — the "life" touch, secondary use only */
+  --gds-gradient-accent: linear-gradient(135deg, var(--gds-accent-blue), var(--gds-accent-violet));
+  /* deep-blue ambient gradient for section backgrounds */
+  --gds-gradient-bg: radial-gradient(ellipse 70% 55% at 50% 110%, rgba(30, 58, 138, 0.28), transparent 70%);
+
+  /* ---- Glow · silver light ---- */
+  --gds-glow-sm: 0 0 18px rgba(255, 255, 255, 0.14);
+  --gds-glow-md: 0 0 42px rgba(255, 255, 255, 0.18);
+  --gds-glow-lg: 0 8px 80px rgba(255, 255, 255, 0.22);
+  --gds-glow-text: 0 0 26px rgba(255, 255, 255, 0.38);
+  --gds-glow-accent: 0 0 32px rgba(109, 40, 217, 0.35);
+
+  /* ---- Typography · Space Grotesk everywhere ---- */
+  --gds-font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --gds-font-body: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --gds-font-mono: ui-monospace, "Cascadia Code", "SF Mono", Consolas, monospace;
+
+  --gds-text-xs: 0.75rem;
+  --gds-text-sm: 0.875rem;
+  --gds-text-md: 1rem;
+  --gds-text-lg: 1.25rem;
+  --gds-text-xl: 1.75rem;
+  --gds-text-2xl: 2.5rem;
+  --gds-text-hero: clamp(2.75rem, 7vw, 5.5rem);
+
+  /* ---- Radius ---- */
+  --gds-radius-sm: 10px;
+  --gds-radius-md: 16px;
+  --gds-radius-lg: 24px;
+  --gds-radius-pill: 999px;
+
+  /* ---- Spacing ---- */
+  --gds-space-1: 0.25rem;
+  --gds-space-2: 0.5rem;
+  --gds-space-3: 0.75rem;
+  --gds-space-4: 1rem;
+  --gds-space-6: 1.5rem;
+  --gds-space-8: 2rem;
+  --gds-space-12: 3rem;
+  --gds-space-16: 4rem;
+
+  /* ---- Motion · durations & easings ---- */
+  --gds-dur-fast: 180ms;
+  --gds-dur-base: 320ms;
+  --gds-dur-slow: 700ms;
+  --gds-ease-out: cubic-bezier(0.16, 1, 0.3, 1);      /* expo-out, premium feel */
+  --gds-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1); /* subtle overshoot */
+  --gds-ease-smooth: cubic-bezier(0.45, 0, 0.15, 1);
+}

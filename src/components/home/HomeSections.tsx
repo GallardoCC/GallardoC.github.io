@@ -258,7 +258,6 @@ export function ContactCta() {
           </div>
           <div className="cta-row" style={{ justifyContent: "center" }}>
             <SocialLink href={site.socials.github} label="GitHub">GH</SocialLink>
-            <SocialLink href={site.socials.linkedin} label="LinkedIn">in</SocialLink>
             <SocialLink href={site.socials.x} label="X">X</SocialLink>
             <SocialLink href={`mailto:${site.email}`} label="Correo">@</SocialLink>
           </div>

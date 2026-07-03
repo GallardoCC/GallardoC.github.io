@@ -12,7 +12,6 @@ export function SiteFooter() {
             <p>{site.tagline}</p>
             <div className="cta-row" style={{ marginTop: "1.2rem" }}>
               <SocialLink href={site.socials.github} label="GitHub">GH</SocialLink>
-              <SocialLink href={site.socials.linkedin} label="LinkedIn">in</SocialLink>
               <SocialLink href={site.socials.x} label="X">X</SocialLink>
               <SocialLink href={`mailto:${site.email}`} label="Correo">@</SocialLink>
             </div>
