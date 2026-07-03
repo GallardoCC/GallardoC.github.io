@@ -2,6 +2,8 @@ node_modules/
 .next/
 out/
 dist/
+# el design system vendorizado va compilado al repo (CI no lo compila)
+!vendor/gallardo-design-system/dist/
 .env*
 !.env.example
 *.tsbuildinfo
