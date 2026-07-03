@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Export estático: GitHub Pages solo sirve archivos, no ejecuta Node.
+  output: "export",
   reactStrictMode: true,
   outputFileTracingRoot: __dirname,
   // El GDS se enlaza como paquete local (file:) — transpilarlo garantiza

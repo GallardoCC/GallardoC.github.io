@@ -5,7 +5,7 @@
 export const site = {
   name: "Juan Carlos Gallardo",
   shortName: "JG",
-  domain: "https://gallardo.dev",
+  domain: "https://gallardocc.github.io", // TODO: cambiar cuando haya dominio propio (gallardo.dev)
   role: "Quant Trader · Estudiante de Ingeniería en IA y Ciencia de Datos",
   tagline:
     "Cuatro años operando mercados y programando. Hoy: trading cuantitativo e ingeniería de IA. Mañana: un hedge fund propio.",
